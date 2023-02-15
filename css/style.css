@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+	scroll-behavior: smooth;
+}
+header{
+    position: fixed;
+    display: flex;
+    padding:10px 30px;
+    width: 100%;
+    height: 170px;
+    background-color: #ffcc00;
+}
+header a{
+    height:70px;
+}
+.logo img{
+    width:200px;
+    position: absolute;
+}
+.navbar{
+    display: flex;
+    margin-top: 140px;
+    margin-right: 90px;
+}
+.navbar a{
+    color:#000;
+    font-size: 16px;
+    font-weight: 500;
+    padding:10px 20px;
+}
+/* Dropdown menu ------- ჩამოსაშლელი მენიუ ფოტოს უკან იმალება ვერც ეგ გავასწორე-------*/
+.dropdown{
+    position: relative;
+    display: inline-block;
+    
+}
+.drop-elements{
+    display: none;
+    position: absolute;
+    background-color: #ffcc00;
+}
+.drop-elements a{
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover  .drop-elements{
+    display: block;
+}
+.drop-elements:hover a{
+    background-color: rgb(240, 240,
+    147);
+}
+/* Section 1------------ */
+
+.cover{
+    position: fixed;
+    height: 400px;
+    width:100%;
+    margin-top:190px;
+}
+/* search bar -------------*/
+.search{
+    position: fixed;
+    margin: 200px 0px 0 460px;
+}
+.title{
+    padding-bottom: 30px;
+    color: #fff;
+}
+.searchbar{
+    height:30px;
+    padding-left: 100px;
+}
+button{
+  width: 70px;
+  padding: 10px;
+  height: 36px;
+  background: red;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover{
+    background-color: rgb(223, 96, 96);
+}
+/* grey boxex-------------------*/
+
+.boxes{
+    position: fixed;
+    display: flex;
+    margin: 480px 0 0 280px;
+
+}
+.box-1{
+    height:200px;
+    width:250px;
+    background-color: rgb(243, 243, 243);
+    border:2xp;
+    border-color: rgb(167, 167, 167);
+    border-radius: 5px;
+}
+.material-symbols-outlined{
+    margin-top:30px;
+    margin-left:100px;
+}
+.box-1 a{
+    color:  rgb(149, 13, 13);
+    text-decoration: none;
+}
+.box-1 h3{
+    margin-left:25px;
+    margin-top:90px;
+}
+/* მეორე სექცია*/ 
+.wrapbox{
+    position: fixed;
+    display: flex;
+    margin-top:900px;
+}
